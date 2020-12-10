@@ -61,7 +61,7 @@ body {
     }
 
     /*----- STYLING LINKS -----*/
-    a{
+    a {
       color: #008080;
       text-decoration: none;
     }
@@ -78,15 +78,15 @@ body {
       left: 0;
       margin: 0;
       width: 100%;
-      background-color: #008080
+      background-color: #A4A6AB
       padding: 1em 0;
       font-size: 0.75em;
 }
 
-    nav ul: {
+    nav ul {
       text-align: center;
       text-transform: uppercase;
-      letter-spacing: 1px
+      letter-spacing: 1px;
 }
 
     nav ul li {
@@ -96,5 +96,5 @@ body {
 }
 
     nav a:link {
-     color: #fdfdfd
+     color: #fdfdfd;
 }
