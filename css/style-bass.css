@@ -9,10 +9,10 @@
 
 /*----- MAIN STYLING -----*/
 body {
-  width: 115%;
-  max-width: 1000px;
+  width: 100%;
+  max-width: 900px;
   margin: auto;
-  background: #333333;
+  background: #A7A8A8;
   color: #fdfdfd;
 }
 
@@ -28,7 +28,7 @@ body {
     }
 
     i {
-      color: #EB6800;
+      color: #EB6800
     }
 
     h1 {
@@ -81,8 +81,8 @@ body {
       top: 0;
       left: 0;
       margin: 0;
-      width: 150%;
-      background-color: #A7A8A8;
+      width: 100%;
+      background-color: #EB6800;
       padding: 1em 0;
       font-size: 0.75em;
 }
