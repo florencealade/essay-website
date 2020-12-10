@@ -46,6 +46,10 @@ body {
       margin: 3em 0 1em 0;
     }
 
+    h3 {
+      color: #EB6800;
+    }
+
     blockquote {
       color: #F77C16;
       hanging-punctuation: first;
