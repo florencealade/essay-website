@@ -27,6 +27,10 @@ body {
       margin-bottom: 1.5em;
     }
 
+    p, i {
+      color: #EB6800
+    }
+
     h1 {
       font-size: 3.827em;
       margin-top: 3em;
