@@ -9,7 +9,7 @@
 
 /*----- MAIN STYLING -----*/
 body {
-  width: 100%;
+  width: 115%;
   max-width: 900px;
   margin: auto;
   background: #333333;
@@ -27,7 +27,7 @@ body {
       margin-bottom: 1.5em;
     }
 
-    p, i {
+    i {
       color: #EB6800
     }
 
