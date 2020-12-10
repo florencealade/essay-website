@@ -74,8 +74,27 @@ body {
     /*----- NAVIGATION -----*/
     nav {
       position: fixed;
-      psition: fixed;
       top: 0;
       left: 0;
       margin: 0;
-    }
+      width: 100%;
+      background-color: #008080
+      padding: 1em 0;
+      font-size: 0.75em;
+}
+
+    nav ul: {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1px
+}
+
+    nav ul li {
+      display: inline;
+      margin: 20px;
+      background: none;
+}
+
+    nav a:link {
+     color: #fdfdfd
+}
