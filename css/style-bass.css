@@ -10,11 +10,28 @@
 /*----- MAIN STYLING -----*/
 body {
   width: 100%;
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
-  background: #D9D9D9;
+  background: #FFFFFF;
   color: #fdfdfd;
 }
+
+block{
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+ content {
+  position: absolute;
+  bottom: 0;
+  background: #FFFFFF
+  color: #FFFFFF
+  width: 100%
+  padding: 20px
+}
+
+
 
   /*----- TYPOGRAPHY  -----*/
     h1, h2 {
@@ -24,11 +41,14 @@ body {
     }
 
     P {
-      color: #333
+      color: #000000
+
     }
 
     p, blockquote {
       margin-bottom: 1.5em;
+      font-family: 'Roboto', sans-serif;
+      spacing
     }
 
     i {
@@ -36,14 +56,16 @@ body {
     }
 
     h1 {
-      font-size: 3.827em;
-      margin-top: 3em;
+      font-size: 121.50px;
+      margin-top: 1em;
       margin-bottom: 0.1em;
+      font-family: 'East Sea Dokdo', cursive;
     }
 
     h2 {
       font-size: 1.999em;
       margin: 3em 0 1em 0;
+
     }
 
     h3 {
@@ -85,13 +107,14 @@ body {
 
     /*----- NAVIGATION -----*/
     nav {
-      position: fixed;
-      top: 0;
+      position: relative;
+      top: 0.5em;
       left: 0;
-      margin: 0;
+      right: 0;
+      margin: ;
       width: 100%;
       background-color: #EB6800;
-      padding: 1em 0;
+      padding: 1.5em 0;
       font-size: 0.75em;
 }
 
@@ -114,3 +137,26 @@ body {
    nav a:visited {
      color: #666661;
    }
+
+   /*-----IMAGE-----*/
+   img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+   }
+
+   backArrow {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 30%;
+   }
+
+   /*----- FOOTER-----*/
+footer {
+  text-align: center;
+  font-size: 0.707em;
+  padding: 4em 0 8em 0;
+  color: #000000
+}
