@@ -131,7 +131,7 @@ block{
 }
 
     nav a:link {
-     color: #333333;
+     color: #000000;
 }
 
    nav a:visited {
@@ -146,12 +146,6 @@ block{
      width: 50%;
    }
 
-   backArrow {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 30%;
-   }
 
    /*----- FOOTER-----*/
 footer {
