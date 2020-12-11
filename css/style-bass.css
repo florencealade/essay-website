@@ -48,7 +48,7 @@ block{
     p, blockquote {
       margin-bottom: 1.5em;
       font-family: 'Roboto', sans-serif;
-      spacing
+      letter-spacing: 1px;
     }
 
     i {
