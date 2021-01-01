@@ -16,11 +16,6 @@ body {
   color: #fdfdfd;
 }
 
-block{
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-}
 
  content {
   position: absolute;
@@ -47,9 +42,10 @@ block{
 
     p, blockquote {
       margin-bottom: 1.5em;
-      font-family: 'Roboto', sans-serif;
       letter-spacing: 1px;
+      line-height: 30px;
     }
+
 
     i {
       color: #EB6800
@@ -135,7 +131,7 @@ block{
 }
 
    nav a:visited {
-     color: #666661;
+     color: #4D4D4D;
    }
 
    /*-----IMAGE-----*/
