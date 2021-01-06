@@ -77,6 +77,12 @@ div {
       text-indent: -0.44em;
     }
 
+    i.quote {
+      color: #EB6800;
+      font-size: 1.999em;
+
+    }
+
     cite {
       font-size: 0.75em;
       color: #43464B;
@@ -138,7 +144,7 @@ div {
    }
 
    nav a:hover {
-     border-bottom: none;
+     border-bottom: line;
      color: #fdfdfd;
      transition: all 0.4s ease-in-out;
     }
@@ -151,6 +157,53 @@ div {
      margin-right: auto;
      width: 50%;
    }
+   img.bass {
+     width: 100%;
+    height: 350px;
+    float: center;
+    display: block;
+    padding: 5px;
+}
+
+img.logo {
+  width: 100%;
+ height: 350px;
+ float: center;
+ display: block;
+ padding: 5px;
+}
+
+img.impact {
+  width: 100%;
+ height: 350px;
+ float: center;
+ display: block;
+ padding: 5px;
+}
+
+
+img.at {
+  width: 35%;
+ height: 150px;
+ float: center;
+ display: block;
+ padding: 5px;
+ margin-bottom: 1.5em;
+ margin-top: 5em;
+
+}
+
+img.sequence {
+  width: 50%;
+ height: 200px;
+ float: center;
+ display: block;
+ padding: 5px;
+ margin-top: 5em;
+ margin-bottom: 1.5em;
+
+}
+
 
 
    /*----- FOOTER-----*/
